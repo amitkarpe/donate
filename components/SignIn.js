@@ -1,7 +1,8 @@
-import Image from "next/image";
+// import Image from "next/image";
+// import Image from "next-optimized-images";
+// import Logo from "./images/Web3Auth.svg";
 import { useMoralis } from "react-moralis";
 import styles from "../styles/Home.module.css";
-import Logo from "./images/Web3Auth.svg";
 import { useState } from "react";
 
 export default function SignIn() {
@@ -17,7 +18,6 @@ export default function SignIn() {
 
   return (
     <div className={styles.card}>
-      <Image className={styles.img} src={Logo} width={80} height={80} />
       {isAuthenticating && <p className={styles.green}>Authenticating</p>}
       {authError && (
         <p className={styles.error}>{JSON.stringify(authError.message)}</p>
