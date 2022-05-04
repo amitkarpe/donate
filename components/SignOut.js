@@ -56,6 +56,16 @@ export const SignOut = () => {
         <button className={styles.loginButton} onClick={logout}>
           Sign Out
         </button>
+      <div className={styles.github}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/amitkarpe/donate"
+          >
+            {" "}
+            Source Code @ GitHub
+          </a>
+        </div>
       </div>
     </div>
   );
