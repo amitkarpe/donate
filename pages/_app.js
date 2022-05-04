@@ -1,11 +1,12 @@
 import { MoralisProvider } from "react-moralis";
 import "../styles/globals.css";
+// require('dotenv').config();
 
 function MyApp({ Component, pageProps }) {
   return (
     <MoralisProvider 
-       serverUrl = "https://prylzpawi05g.usemoralis.com:2053/server"
-       appId = "flqVyfiGHp0ZnP98praWONi2AStnRLDX1jOlLNc3" 
+       serverUrl = {process.env.NEXT_PUBLIC_MORALIS_SERVER_URL}
+       appId = {process.env.NEXT_PUBLIC_MORALIS_APPLICATION_ID}
     >
       <Component {...pageProps} />
     </MoralisProvider>

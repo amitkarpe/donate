@@ -8,11 +8,7 @@ yarn add magic-sdk@7.0.0 @web3auth/web3auth
 
 ReactMoralisError: Provide a "appId" provided to <MoralisProvider>
 
-Need to update correct serverUrl and appId values
-```
-    serverUrl = "https://prylzpawi05g.usemoralis.com:2053/server"
-    appId = "flqVyfiGHp0ZnP98praWONi2AStnRLDX1jOlLNc3"
-```
+Need to update correct serverUrl and appId values in .env
 
 ```
 cat << EOF > pages/_app.js
@@ -22,8 +18,9 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <MoralisProvider 
-       serverUrl = "https://prylzpawi05g.usemoralis.com:2053/server"
-       appId = "flqVyfiGHp0ZnP98praWONi2AStnRLDX1jOlLNc3" 
+       serverUrl = {process.env.NEXT_PUBLIC_MORALIS_SERVER_URL}
+       appId = {process.env.NEXT_PUBLIC_MORALIS_APPLICATION_ID}
+
     >
       <Component {...pageProps} />
     </MoralisProvider>

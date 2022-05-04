@@ -24,6 +24,16 @@
   align-items: center;
 }
 
+.github{
+  padding: 10px;
+  border-radius: 20px;
+  border-width: 0px;
+  color: white;
+  background-image: linear-gradient(90deg, #0364ff, #1ac7fe);
+  width: 23%;
+  cursor: pointer;
+}
+
 .loginButton {
   padding: 10px;
   border-radius: 20px;
