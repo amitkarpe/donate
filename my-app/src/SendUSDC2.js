@@ -5,8 +5,8 @@ import { abi } from "./abi";
 let USDC = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174";
 
 const options = [
-  { label: "Invest in Focus 5", address: "0x22dA1eEdeBC60C1b8c3a0c48f5C81BBE2b943dD9" },
-  { label: "Invest in Focus 10", address: "0xbc63219a3a5453db9ccd7096c6009c1ed4e69b45" },
+  { label: "Invest in Focus 5 - main", address: "0x22dA1eEdeBC60C1b8c3a0c48f5C81BBE2b943dD9" },
+  { label: "Invest in Focus 10 - Bro2", address: "0xbc63219a3a5453db9ccd7096c6009c1ed4e69b45" },
 ];
 
 function App() {
@@ -55,9 +55,9 @@ function App() {
 
   return (
     <div className="App">
-      <div>Balance: {balance}</div>
+      <div>USDC Balance: {balance}</div>
       <div>
-        <label>Investment Option</label>
+        <label>Investment Option: </label>
         <select value={selectedOption.label} onChange={handleOptionChange}>
           {options.map((option, index) => (
             <option key={index} value={option.label}>
@@ -67,11 +67,11 @@ function App() {
         </select>
       </div>
       <div>
-        <label>Amount</label>
+        <label>USDC Amount: </label>
         <input type="text" value={amount} onChange={(e) => setAmount(e.target.value)} />
       </div>
       <button onClick={send} disabled={loading}>
-        Send
+        Send USDC
       </button>
     </div>
   );
