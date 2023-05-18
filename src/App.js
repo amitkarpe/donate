@@ -8,11 +8,14 @@ import SendUSDC from './SendUSDC2';
 
 function App() {
   return (
-    <div className="App">
+    <><div className="App">
       <header className="App-header">
         <SendUSDC />
+      <div className="github">
+          <a target="_blank" rel="noreferrer" href="https://github.com/mytestlab123/send">View on GitHub</a>
+      </div>
       </header>
-    </div>
+    </div></>
   );
 }
 
