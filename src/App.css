@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 10px;
 }
 
 .App-link {
@@ -36,3 +37,27 @@
     transform: rotate(360deg);
   }
 }
+
+.github{
+  /* padding: 10px; */
+  border-radius: 20px;
+  border-width: 0px;
+  color: white;
+  background-image: linear-gradient(90deg, #0364ff, #1ac7fe);
+  width: 23%;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+.github::before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/240px-Octicons-mark-github.svg.png);
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/GitHub_Logo.svg/300px-GitHub_Logo.svg.png); */
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
