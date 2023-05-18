@@ -1,6 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Investment
 
-# Donation to wallet
+* Using given "Investment" options user can send USDC to respective wallet.
+
+
+
+### Following are old documents 
+### Donation to wallet
 As of now I have set wallet address to  0xbc63219a3a5453db9ccd7096c6009c1ed4e69b45
 
 Using Moralis SDK, this web 3.0 dApp helps to send 0.001 Matic to wallet address - 0xbc63219a3a5453db9ccd7096c6009c1ed4e69b45
