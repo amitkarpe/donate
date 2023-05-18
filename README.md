@@ -1,65 +1,70 @@
-# Investment
+# Getting Started with Create React App
 
-* Using given "Investment" options user can send USDC to respective wallet.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-### Following are old documents 
-### Donation to wallet
-As of now I have set wallet address to  0xbc63219a3a5453db9ccd7096c6009c1ed4e69b45
+### `npm start`
 
-Using Moralis SDK, this web 3.0 dApp helps to send 0.001 Matic to wallet address - 0xbc63219a3a5453db9ccd7096c6009c1ed4e69b45
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-[UnstoppableDomains NFT domain - karpe2121.wallet](karpe2121.wallet) works only on Chrome [Unstoppable Extension
-](https://chrome.google.com/webstore/detail/unstoppable-extension/beelkklmblgdljamcmoffgfbdddfpnnl/related?hl=en)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-[Morlais Server - https://prylzpawi05g.usemoralis.com](https://prylzpawi05g.usemoralis.com)
+### `npm test`
 
-[IPFS - https://ipfs.io/ipfs/QmRAb5WChEB6H2fADrxVJWskYQMqGJdxDqkayrQvNpSFVb](https://ipfs.io/ipfs/QmRAb5WChEB6H2fADrxVJWskYQMqGJdxDqkayrQvNpSFVb)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-First, run the development server:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### `npm run eject`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Code Splitting
 
-## Deploy on Moralis
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Please update moralisApiKey and  moralisApiSecret into `.env`.
+### Analyzing the Bundle Size
 
-```
-yarn build && yarn export
-moralis-admin-cli deploy -p out
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```
-More about [moralis-admin-cli](https://docs.moralis.io/moralis-dapp/tools/moralis-admin-cli), which will describe about how to  deploy your dApp to be hosted on Moralis using the deploy command.
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Deploy on Vercel
+### Advanced Configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
